@@ -1,0 +1,11 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+@use '../components/typography' as *;
+
+
+
+.quemsomos{
+    padding-top: 7rem;
+    @include background-color-primary;
+
+}

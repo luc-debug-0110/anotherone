@@ -1,0 +1,29 @@
+@use'custom';
+
+//IMPORTANDO OS COMPONENTES
+
+@use'components/animations';
+@use'components/buttons';
+@use'components/mixins';
+@use'components/typography';
+
+//IMPORTANTDO AS SEÇÕES DA PÁGINA INICIAL
+
+@use'sections/navegation';
+@use'sections/banner';
+@use'sections/companies';
+@use'sections/services';
+@use'sections/testimonials';
+@use'sections/footer';
+
+//IMPORTANTDO AS SEÇÕES DA PÁGINA QUEM SOMOS
+
+@use 'sobre/quemsomos';
+@use 'sobre/historia';
+@use 'sobre/proposta';
+
+//IMPORTANDO AS SEÇÕES DA PÁGINA DE SERVIÇOS
+@use 'servicos/banner_services';
+@use 'servicos/basico';
+@use 'servicos/intermediario';
+@use 'servicos/avancado';

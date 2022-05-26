@@ -1,0 +1,12 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+@use '../components/typography' as *;
+
+
+
+.proposta{
+    @include background-color-primary;
+    padding-bottom: 4rem;
+    color: $white;
+
+}

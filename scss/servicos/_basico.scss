@@ -1,0 +1,13 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+@use '../components/typography' as *;
+
+.basico-section{
+    @include background-color-primary;
+    li{
+        text-decoration: none;
+        font-size: small;
+
+    }
+}
+

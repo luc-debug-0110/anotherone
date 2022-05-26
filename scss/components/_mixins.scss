@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+@mixin background-color-primary{
+    background-color: $primary;
+}
+
+//CENTRO ABSOLUTO
+
+@mixin absolute-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
