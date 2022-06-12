@@ -1,0 +1,21 @@
+.quemusa{
+    padding: 5rem 0;
+
+    .content{
+        display: grid;
+        align-content: center;
+
+        img{
+            width: 5rem;
+        }
+
+        .lead{
+            padding: 0.8rem 0;
+        }
+
+        li{
+            margin: 0 -2rem;
+            padding-bottom: 0.8rem;
+        }
+    }
+}

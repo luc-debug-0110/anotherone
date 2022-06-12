@@ -1,0 +1,24 @@
+@use '../../custom' as *;
+
+.problema{
+    padding: 5rem;
+    .heading-problema{
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 27rem;
+        }
+        padding-bottom: 3rem;
+    }
+    li{
+        padding-bottom: 1rem ;
+        font-size: 1.2rem;
+    }
+    img{
+        display: block;
+        margin: 3rem auto;
+        height: 25rem;
+    }
+}

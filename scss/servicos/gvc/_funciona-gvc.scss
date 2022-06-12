@@ -1,0 +1,34 @@
+@use '../../custom';
+
+.funciona{
+    .heading-funciona{
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 21rem;
+        }
+    }
+    
+    justify-content: start;
+    align-items: flex-start;
+    .aug{
+        img{
+            margin-top: 2rem;
+            height: 5rem;
+        }
+
+    }
+    img{
+
+        height: 8rem;
+    }
+    p{  
+        align-items: flex-end;
+        padding-top: 2rem;
+        margin: 0 2rem;
+    }
+
+
+}

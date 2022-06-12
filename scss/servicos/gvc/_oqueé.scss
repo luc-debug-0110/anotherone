@@ -1,0 +1,22 @@
+@use '../../custom';
+
+.oque{
+    padding: 5rem 0;
+
+    .heading-oque{
+        padding-bottom: 3rem;
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 10.3rem;
+        }
+    }
+
+    h2{
+        padding-bottom: 2rem;
+    }
+    padding-bottom: 1.5rem;
+    
+}

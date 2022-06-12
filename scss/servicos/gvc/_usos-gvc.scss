@@ -1,0 +1,40 @@
+.container{
+    position: static;
+    overflow: hidden;
+    .cont-imgs{ 
+        position: relative;
+        padding: 10rem;
+        img{
+            width: 5rem;
+            position: absolute;
+            top: 30%;
+            right: 40%;
+
+        }
+
+        .img1{
+            
+            top: 0rem;
+        }
+        .img2{
+            
+            top: 13rem;
+            right: 16rem;
+        }
+        .img3{
+            top: 4rem;
+            right: 7rem;
+        }
+        .img4{
+            top: 10rem;
+            right: 8rem;
+        }
+        .img5{
+            top: 7rem;
+        }
+
+        .img6{
+            right: 22rem;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+
+.compatibilidade{
+    padding: 5rem 0;
+
+    .heading-compatibilidade{
+        padding: 3rem 0;
+
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 22rem;
+        }
+    }
+    li{
+        padding-bottom: 1rem;
+    }
+    img{
+        margin-top: 3rem;
+        width: 20rem;
+    }
+}

@@ -23,5 +23,35 @@
 @use 'sobre/proposta';
 
 //IMPORTANDO AS SEÇÕES DA PÁGINA DE SERVIÇOS
-@use 'servicos/servicos';
-@use 'servicos/servicos-lista';
+
+/* 2FA */
+@use 'servicos/2fa/servicos';
+@use 'servicos/2fa/TWOfa';
+@use 'servicos/2fa/funciona';
+@use 'servicos/2fa/beneficios';
+@use 'servicos/2fa/quemusa';
+@use 'servicos/2fa/quemusaComps';
+
+/* NÚMERO MÁSCARA */
+@use 'servicos/mascara/mascara';
+@use 'servicos/mascara/mascara-intro';
+@use 'servicos/mascara/funciona-mascara';
+@use 'servicos/mascara/quemusa-mascara';
+@use 'servicos/mascara/quemusa-comps-mascara';
+@use 'servicos/mascara/maisquem';
+@use 'servicos/mascara/avancados';
+
+/* GOOGLE VERIFIED CALLS */
+@use 'servicos/gvc/gvc';
+@use 'servicos/gvc/problema';
+@use 'servicos/gvc/oqueé';
+@use 'servicos/gvc/compatibilidade';
+@use 'servicos/gvc/funciona-gvc';
+@use 'servicos/gvc/beneficios-gvc';
+@use 'servicos/gvc/usos-gvc';
+
+/* SMS PROGRAMAVEIS */
+
+@use 'servicos/sms/sms-intro';
+@use 'servicos/sms/oque-sms';
+@use 'servicos/sms/oque-extend';

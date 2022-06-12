@@ -1,0 +1,17 @@
+.beneficios{
+    .heading-beneficios{
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 13.5rem;
+        }
+    }
+    li{
+        padding-bottom: 1.5rem;
+        span{
+            font-weight: 600;
+        }
+    }
+}

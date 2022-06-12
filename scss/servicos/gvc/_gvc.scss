@@ -1,0 +1,13 @@
+@use '../../custom' as *;
+
+.gvc-intro{
+    background-color: $primary;
+    padding: 10rem;
+    text-align: center;
+    color: $secondary;
+    
+    .heading-line::before{
+        background-color: $secondary;
+        width: 27rem;
+    }
+}

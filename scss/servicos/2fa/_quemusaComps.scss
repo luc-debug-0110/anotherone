@@ -1,0 +1,16 @@
+.quemusa-comps{
+    padding: 5rem 0;
+    .quemusa-content{
+        display: grid;
+        .quemusa-images{
+            width: 5rem;
+        }
+        .lead{
+            padding: 0.8 0;
+        }
+        img{
+            width: 5rem;
+            padding-bottom: 0.8rem;
+        }
+    }
+}

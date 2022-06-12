@@ -3,6 +3,34 @@
 @use '../components/typography' as *;
 
 .historia{
-    background-color: white;
+    background-color: $primary;
+
+    .display-4--intro{
+        color: $white;
+    }
+
+    .heading-line{
+        display: grid;
+        justify-content: start;
+        
+    }
+    .heading-line::before{
+        width: 6rem;
+        background-color: $white;
+    }
+    .heading-line::after{
+        background-color:  $white;
+    }
+
+    .usos{
+        
+        &--item{
+            span{
+                img{
+                    width: 60px;
+                }
+            }
+        }
+    }
 
 }

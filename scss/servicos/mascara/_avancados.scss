@@ -1,0 +1,18 @@
+.avancados{
+    padding: 5rem 0;
+    .heading-avancados{
+        padding-bottom: 5rem;
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 27.5rem;
+        }
+    }
+    .conteudo{
+        li{
+            padding-bottom: 1rem;
+        }
+    }
+}

@@ -6,6 +6,21 @@
 
 .quemsomos{
     padding-top: 7rem;
-    @include background-color-primary;
+    background-color: $white;
+    
+    
+    
+    .heading-line{
+        display: grid;
+        justify-content: start;
+        
+    }
+    .heading-line::before{
+        width: 20rem;
+    }
+
+    .display-4--intro{
+        margin-bottom: 1rem;
+    }
 
 }

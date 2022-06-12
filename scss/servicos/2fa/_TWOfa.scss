@@ -1,0 +1,59 @@
+@use '../../custom' as *;
+
+.twofa-section{
+    padding: 2rem 0;
+    display: grid;
+    justify-content: end;
+
+    .heading-twofa{
+        .display-4{
+            &--intro{
+                font-size: 3rem;
+            }
+            
+        }
+        .heading-line{
+            display: grid;
+            justify-content: start;
+            
+        }
+        .heading-line::before{
+            width: 6rem;
+        }
+
+        margin-bottom: 1.5rem;
+    }
+
+    .twofa-description{
+        h4{
+            font-style: italic;
+        }
+
+        li{
+            padding: 1rem 0;
+        }
+        
+    }
+
+    .twofa-image{
+        img{
+            width: 24rem;
+            height: 12rem;
+        }
+    }
+
+    .twofa-estrat{
+        p{
+            font-weight: 300;
+        }
+        .estilo{
+            font-style: italic;
+        }
+        .porcentos{
+            color: $primary;
+            font-weight: 600;
+            font-size: 5rem;
+            padding-right: 0.5rem ;
+        }
+    }
+}

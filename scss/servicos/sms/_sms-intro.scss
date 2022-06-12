@@ -1,0 +1,13 @@
+@use '../../custom' as *;
+
+.sms-intro{
+    background-color: $primary;
+    padding: 10rem;
+    text-align: center;
+    color: $secondary;
+    
+    .heading-line::before{
+        background-color: $secondary;
+        width: 23.5rem;
+    }
+}

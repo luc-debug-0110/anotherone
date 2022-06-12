@@ -5,8 +5,19 @@
 
 
 .proposta{
-    @include background-color-primary;
+    background-color: $white;
     padding-bottom: 4rem;
-    color: $white;
+    color: $primary;
+
+    .exemplos{
+        
+        &--items{
+            margin-bottom: 0.5rem;
+            img{
+                border: 1px solid #baddf9;
+                width: 32rem;
+            }
+        }
+    }
 
 }

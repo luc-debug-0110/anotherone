@@ -1,0 +1,26 @@
+@use '../../custom' as *;
+
+.mascara-intro{
+    background-color: $primary;
+    padding: 10rem 0;
+
+    .heading-mascara{
+
+        h1{
+            color: $secondary;
+        }
+        
+            .heading-line{
+                display: block;
+                margin: 0 auto;
+                
+            }
+            .heading-line::before{
+                background-color: $secondary;
+                padding: 0 11.3rem;
+            }
+            .heading-line::after{
+                background-color: $secondary;
+            }
+        }
+    }
