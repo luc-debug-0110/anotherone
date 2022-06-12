@@ -60,7 +60,7 @@
 
     &--intro{
         display: inline-block;
-        font-weight: 700;
+        font-weight: 900;
         font-family: 'Poppins', sans-serif;
 
     }
@@ -68,8 +68,10 @@
     &--descricao{
         font-size: 1rem;
         display: block;
+        font-weight: 400;
         margin-top: 1.2rem;
         text-transform: none;
+
 
     }
 

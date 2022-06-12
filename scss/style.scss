@@ -23,7 +23,5 @@
 @use 'sobre/proposta';
 
 //IMPORTANDO AS SEÇÕES DA PÁGINA DE SERVIÇOS
-@use 'servicos/banner_services';
-@use 'servicos/basico';
-@use 'servicos/intermediario';
-@use 'servicos/avancado';
+@use 'servicos/servicos';
+@use 'servicos/servicos-lista';
