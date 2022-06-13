@@ -11225,6 +11225,7 @@ textarea.form-control-lg {
 }
 
 * {
+  scroll-padding-top: 100px;
   margin: 0;
   padding: 0;
 }
@@ -11467,8 +11468,6 @@ textarea.form-control-lg {
 
 .twofa-section {
   padding: 2rem 0;
-  display: grid;
-  justify-content: end;
 }
 .twofa-section .heading-twofa {
   margin-bottom: 1.5rem;
@@ -11548,6 +11547,7 @@ textarea.form-control-lg {
   align-content: center;
 }
 .quemusa .content img {
+  height: 5rem;
   width: 5rem;
 }
 .quemusa .content .lead {
@@ -11849,39 +11849,39 @@ textarea.form-control-lg {
   padding-bottom: 3rem;
 }
 
-.container {
+.usos-container {
   position: static;
   overflow: hidden;
 }
-.container .cont-imgs {
+.usos-container .cont-imgs {
   position: relative;
   padding: 10rem;
 }
-.container .cont-imgs img {
+.usos-container .cont-imgs img {
   width: 5rem;
   position: absolute;
   top: 30%;
   right: 40%;
 }
-.container .cont-imgs .img1 {
+.usos-container .cont-imgs .img1 {
   top: 0rem;
 }
-.container .cont-imgs .img2 {
+.usos-container .cont-imgs .img2 {
   top: 13rem;
   right: 16rem;
 }
-.container .cont-imgs .img3 {
+.usos-container .cont-imgs .img3 {
   top: 4rem;
   right: 7rem;
 }
-.container .cont-imgs .img4 {
+.usos-container .cont-imgs .img4 {
   top: 10rem;
   right: 8rem;
 }
-.container .cont-imgs .img5 {
+.usos-container .cont-imgs .img5 {
   top: 7rem;
 }
-.container .cont-imgs .img6 {
+.usos-container .cont-imgs .img6 {
   right: 22rem;
 }
 
@@ -11933,9 +11933,31 @@ textarea.form-control-lg {
   margin: 0 10rem;
 }
 
+.quemusa img {
+  height: 20rem;
+}
+
+.jornada {
+  padding: 5rem 0;
+}
+.jornada .heading-jornada {
+  padding-bottom: 3rem;
+}
+.jornada .heading-jornada .heading-line {
+  display: grid;
+  justify-content: start;
+}
+.jornada .heading-jornada .heading-line::before {
+  width: 24.3rem;
+}
+.jornada img {
+  width: 70rem;
+}
+
 /* 2FA */
 /* NÚMERO MÁSCARA */
 /* GOOGLE VERIFIED CALLS */
 /* SMS PROGRAMAVEIS */
+/* @use 'servicos/sms/beneficios-sms'; */
 
 /*# sourceMappingURL=style.css.map */

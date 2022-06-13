@@ -1,4 +1,4 @@
-.container{
+.usos-container{
     position: static;
     overflow: hidden;
     .cont-imgs{ 
@@ -9,9 +9,9 @@
             position: absolute;
             top: 30%;
             right: 40%;
-
+    
         }
-
+    
         .img1{
             
             top: 0rem;
@@ -32,9 +32,10 @@
         .img5{
             top: 7rem;
         }
-
+    
         .img6{
             right: 22rem;
         }
     }
+    
 }

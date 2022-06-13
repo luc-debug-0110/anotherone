@@ -12,7 +12,7 @@
     <body>
         <!-- COMEÇANDO A SESSÃO DA BARRA DE NAVEGAÇÃO -->
 
-    <nav class="navbar navbar-expand-lg menu navbar-light shadow">
+    <nav class="navbar navbar-expand-lg menu fixed-top navbar-light shadow">
         <div class="container">
           <a class="navbar-brand" href="index.html">
               <img src="images/logo/image.7ZEPN1.png" alt="logo image">
@@ -34,9 +34,19 @@
                     </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a href="servicos.html" class="nav-link">Serviços</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Serviços
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="servicos.html#twofa">2FA</a></li>
+                    <li><a class="dropdown-item" href="servicos.html#mascara">Número Máscara</a></li>
+                    <li><a class="dropdown-item" href="servicos.html#gvc">Google Verified Calls</a></li>
+                    <li><a class="dropdown-item" href="servicos.html#sms">SMS Programável</a></li>
+                    </ul>
                 </li>
+
+                
 
                 <li class="nav-item">
                     <a href="#" class="nav-link disabled">Impresa</a>
@@ -63,7 +73,7 @@
       <!--  -->
         <!-- COMEÇO DA SESSÃO SERVIÇOS -->
 
-        <section id="sevices" class="our-sevices">
+        <section id="sevices" class="our-sevices pt-5">
             <div class="container  py-5">
                 <div class="row text-center">
                     <h1 class="display-3 fw-bold">Nossos Serviços</h1>
@@ -325,7 +335,7 @@ Time Password).
         </section>
 
 
-        <section id="mascara-intro" class="mascara-intro">
+        <section id="mascara" class="mascara-intro">
             <div class="container">
                 <div class="heading-mascara pb-4 text-center">
                     <h1 class="display-4--intro">Número Máscara</h1>
@@ -511,7 +521,7 @@ Time Password).
             </div>
         </section>
 
-        <section id="gvc-intro" class="gvc-intro">
+        <section id="gvc" class="gvc-intro">
             <div class="container">
                 <div class="heading-gvc-intro">
                     <h1 class="display-4--intro">Google Verified Calls</h1>
@@ -662,7 +672,7 @@ encaminhá-la ao destinatário.
         </section>
 
         <section id="usos" class="usos py-5">
-            <div class="container">
+            <div class="container usos-container">
                 <div class="heading-usos d-grid justify-content-start py-3">
                     <h1 class="display-4--intro">Usos</h1>
                     <div class="heading-line"></div>
@@ -704,7 +714,7 @@ encaminhá-la ao destinatário.
             </div>
         </section>
 
-        <section id="sms-intro" class="sms-intro">
+        <section id="sms" class="sms-intro">
             <div class="container">
                 <div class="heading-sms-intro">
                     <h1 class="display-4--intro">SMS Programável</h1>
@@ -739,7 +749,7 @@ encaminhá-la ao destinatário.
             </div>
         </section>
 
-        <section id="oque-extend" class="oque-extend">
+        <section id="oque-extend" class="oque-extend shadow">
             <div class="container">
                 <div class="description">
                     <p class=" text-center fw-bold spacing fs-5"">SMS é a forma mais rápida, eficiente e de baixo custo para se
@@ -766,6 +776,74 @@ encaminhá-la ao destinatário.
             </div>
         </section>
 
+        <section id="quemusa" class="quemusa shadow">
+            <div class="container">
+                <div class="heading-quemusa">
+                    <h1 class="display-4--intro">Quem usa?</h1>
+                    <div class="heading-line"></div>
+                </div>
+                <p class="fw-lighter">São muitos os caso de uso, mas veja alguns exemplos:</p>
+
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-2">
+                        <img src="images/serviços/sms/quemusa/image.473QN1.png" alt="">
+                        <p class="fw-bold">Divulgação</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/serviços/sms/quemusa/image.03PGN1.png" alt="">
+                        <p class="fw-bold">Transações</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/serviços/sms/quemusa/image.BXI0N1.png" alt="">
+                        <p class="fw-bold">Segurança</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/serviços/sms/quemusa/image.14YIN1.png" alt="">
+                        <p class="fw-bold">Suporte ao Cliente</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/serviços/sms/quemusa/image.Q3YNN1.png" alt="">
+                        <p class="fw-bold">Notificações</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jornada" class="jornada shadow">
+            <div class="container">
+                <div class="heading-jornada">
+                    <h1 class="display-4--intro">Jornada do Cliente</h1>
+                    <div class="heading-line"></div>
+                </div>
+                <p class="fw-lighter">Oferecer uma melhor experiência ao cliente acompanhando a sua jornada de compra.</p>
+                <div class="img">
+                    <img src="images/serviços/sms/jornada/Captura de tela de 2022-06-12 12-56-14.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="beneficios shadow">
+            <div class="container">
+                <div class="heading-beneficio">
+                    <h1 class="display-4--intro">Benefícios</h1>
+                    <div class="heading-line"></div>
+                </div>
+                <div class="conteudo">
+                    <ul>
+                        <li class="fw-lighter fs-5">Comunicação rápida, efetiva e escalável.</li>
+                        <li class="fw-lighter fs-5">Baixo custo.</li>
+                        <li class="fw-lighter fs-5">Alta taxa de entrega e leitura.</li>
+                        <li class="fw-lighter fs-5">Personalização de data, hora e conteúdo.</li>
+                        <li class="fw-lighter fs-5">Agendamento de campanhas.</li>
+                        <li class="fw-lighter fs-5">Interação bidirecional: recebimento de respostas.</li>
+                        <li class="fw-lighter fs-5">Plataforma user-friendly.</li>
+                        <li class="fw-lighter fs-5">Acompanhamento de métricas e relatórios.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
         
 
       <!-- RODAPÉ TOPO -->

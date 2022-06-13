@@ -1,0 +1,18 @@
+.jornada{
+    padding: 5rem 0;
+    .heading-jornada{
+        padding-bottom: 3rem;
+
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 24.3rem;
+        }
+    }
+    
+    img{
+        width: 70rem;
+    }
+}
