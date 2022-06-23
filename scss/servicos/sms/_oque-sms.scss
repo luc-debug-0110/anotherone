@@ -1,18 +1,26 @@
 .oque-sms{
+    display: grid;
+    justify-content: center;
+    align-items: center;
     padding-top: 5rem;
     .heading-line{
         display: grid;
         justify-content: start;
         padding-bottom: 3rem;
     }
-    display: grid;
-    justify-content: center;
-    align-items: center;
     img{
         width: 30rem;
     }
     p{
         word-spacing: 5px;
+    }
+    
+}
+@media (max-width:768px) {
+    .oque-sms{
+        img{
+            width: 20rem;
+        }
     }
     
 }

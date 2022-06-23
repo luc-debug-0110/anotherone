@@ -1,4 +1,9 @@
 @charset "UTF-8";
+:export {
+  primaryColor: #00c1f4;
+  secondaryColor: #fff;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11253,32 +11258,9 @@ textarea.form-control-lg {
   height: 100%;
 }
 
-.intros .video-box {
-  position: relative;
-}
-.intros .video-box a {
-  /* @include absolute-center; */
-}
-.intros .video-box a span i {
-  font-size: 6rem;
-  color: #212529;
-}
-
-.border-animation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 6rem;
-  height: 6rem;
-  border: 0.55rem solid #00c1f4;
-  border-radius: 50%;
-  animation: parse-border 1.5s linear infinite;
-}
-.border-animation--border-1 {
-  animation-delay: 1s;
-}
-.border-animation--border-2 {
-  animation-delay: 1.5s;
+.banner-section.night-mode {
+  background-color: black;
+  color: #fff;
 }
 
 .companies {
@@ -11505,6 +11487,11 @@ textarea.form-control-lg {
   padding-right: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  .twofa-section .twofa-image img {
+    width: 20rem;
+  }
+}
 .funciona .heading-funciona .heading-line {
   display: grid;
   justify-content: start;
@@ -11646,6 +11633,12 @@ textarea.form-control-lg {
   padding: 1rem 4rem;
 }
 
+@media (max-width: 768px) {
+  .funciona img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
 .quemusa .heading-quemusa {
   text-transform: capitalize;
   padding-bottom: 5rem 0;
@@ -11728,6 +11721,11 @@ textarea.form-control-lg {
   border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  .maisquem .heading-maisquem .heading-line::before {
+    width: 20rem;
+  }
+}
 .avancados {
   padding: 5rem 0;
 }
@@ -11745,6 +11743,11 @@ textarea.form-control-lg {
   padding-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+  .avancados .heading-avancados .heading-line::before {
+    width: 20rem;
+  }
+}
 .gvc-intro {
   background-color: #00c1f4;
   padding: 10rem;
@@ -11756,8 +11759,16 @@ textarea.form-control-lg {
   width: 27rem;
 }
 
+@media (max-width: 768px) {
+  .gvc-intro {
+    text-align: start;
+  }
+  .gvc-intro .heading-line::before {
+    width: 8rem;
+  }
+}
 .problema {
-  padding: 5rem;
+  padding: 5rem 0;
 }
 .problema .heading-problema {
   padding-bottom: 3rem;
@@ -11779,6 +11790,23 @@ textarea.form-control-lg {
   height: 25rem;
 }
 
+@media (max-width: 768px) {
+  .problema .heading-problema {
+    padding-bottom: 3rem;
+  }
+  .problema .heading-problema .heading-line {
+    display: grid;
+    justify-content: start;
+  }
+  .problema .heading-problema .heading-line::before {
+    width: 19rem;
+  }
+  .problema img {
+    display: flex;
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+}
 .oque {
   padding: 5rem 0;
   padding-bottom: 1.5rem;
@@ -11797,6 +11825,11 @@ textarea.form-control-lg {
   padding-bottom: 2rem;
 }
 
+@media (max-width: 768px) {
+  .oque img {
+    width: 20rem;
+  }
+}
 .compatibilidade {
   padding: 5rem 0;
 }
@@ -11887,7 +11920,7 @@ textarea.form-control-lg {
 
 .sms-intro {
   background-color: #00c1f4;
-  padding: 10rem;
+  padding: 10rem 0;
   text-align: center;
   color: #fff;
 }
@@ -11896,11 +11929,16 @@ textarea.form-control-lg {
   width: 23.5rem;
 }
 
+@media (max-width: 768px) {
+  .sms-intro .heading-line::before {
+    width: 10rem;
+  }
+}
 .oque-sms {
-  padding-top: 5rem;
   display: grid;
   justify-content: center;
   align-items: center;
+  padding-top: 5rem;
 }
 .oque-sms .heading-line {
   display: grid;
@@ -11914,8 +11952,13 @@ textarea.form-control-lg {
   word-spacing: 5px;
 }
 
+@media (max-width: 768px) {
+  .oque-sms img {
+    width: 20rem;
+  }
+}
 .oque-extend {
-  padding: 5rem;
+  padding: 5rem 0;
 }
 .oque-extend .description {
   padding-bottom: 2rem;
@@ -11933,6 +11976,20 @@ textarea.form-control-lg {
   margin: 0 10rem;
 }
 
+@media (max-width: 768px) {
+  .oque-extend .description {
+    margin: 0;
+  }
+  .oque-extend .row {
+    text-align: start;
+  }
+  .oque-extend .row h1 {
+    font-size: 5rem;
+  }
+  .oque-extend .row p {
+    text-align: start;
+  }
+}
 .quemusa img {
   height: 20rem;
 }
@@ -11954,10 +12011,62 @@ textarea.form-control-lg {
   width: 70rem;
 }
 
+@media (max-width: 768px) {
+  .jornada .heading-jornada {
+    padding-bottom: 3rem;
+  }
+  .jornada .heading-jornada .heading-line {
+    display: grid;
+    justify-content: start;
+  }
+  .jornada .heading-jornada .heading-line::before {
+    width: 17rem;
+  }
+  .jornada img {
+    width: 20rem;
+  }
+}
+.registro-form {
+  height: 100vh;
+}
+.registro-form .col-form {
+  padding-top: 2.5rem;
+  height: 80vh;
+}
+.registro-form .col-form form {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+.registro-form .col-form .form-control.sucesso {
+  border: 2px green solid;
+}
+.registro-form .col-form .form-control.erro {
+  border: 2px red solid;
+}
+
+.login-form {
+  height: 100vh;
+}
+.login-form .col-form {
+  height: 100vh;
+  border-radius: 5px;
+}
+.login-form .col-form form {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+.login-form .col-form .form-control.sucesso {
+  border: 2px green solid;
+}
+.login-form .col-form .form-control.erro {
+  border: 2px red solid;
+}
+
 /* 2FA */
 /* NÚMERO MÁSCARA */
 /* GOOGLE VERIFIED CALLS */
 /* SMS PROGRAMAVEIS */
 /* @use 'servicos/sms/beneficios-sms'; */
+/* LOGIN E REGISTRO */
 
 /*# sourceMappingURL=style.css.map */

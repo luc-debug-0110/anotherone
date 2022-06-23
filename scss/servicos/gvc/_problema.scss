@@ -1,7 +1,7 @@
 @use '../../custom' as *;
 
 .problema{
-    padding: 5rem;
+    padding: 5rem 0;
     .heading-problema{
         .heading-line{
             display: grid;
@@ -20,5 +20,25 @@
         display: block;
         margin: 3rem auto;
         height: 25rem;
+    }
+}
+
+@media(max-width:768px){
+    .problema{
+        .heading-problema{
+            .heading-line{
+                display: grid;
+                justify-content: start;
+            }
+            .heading-line::before{
+                width: 19rem;
+            }
+            padding-bottom: 3rem;
+        }
+        img{
+            display: flex;
+            width: 12.5rem;
+            height: 12.5rem;
+        }
     }
 }

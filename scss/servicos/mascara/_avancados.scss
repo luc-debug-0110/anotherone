@@ -16,3 +16,13 @@
         }
     }
 }
+
+@media (max-width:768px) {
+    .avancados{
+        .heading-avancados{
+            .heading-line::before{
+                width:20rem
+            }
+        }
+    }
+}

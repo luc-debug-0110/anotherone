@@ -58,3 +58,12 @@
 @use 'servicos/sms/quem-sms';
 @use 'servicos/sms/jornada';
 /* @use 'servicos/sms/beneficios-sms'; */
+
+
+
+
+
+
+/* LOGIN E REGISTRO */
+@use 'login e registro/_registro';
+@use 'login e registro/login';

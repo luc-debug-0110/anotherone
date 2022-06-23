@@ -19,3 +19,13 @@
         border-radius: 5px;
     }
 }
+
+@media (max-width:768px) {
+    .maisquem{
+        .heading-maisquem{
+            .heading-line::before{
+                width: 20rem;
+            }
+        }
+    }
+}

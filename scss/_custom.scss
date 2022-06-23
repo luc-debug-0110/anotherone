@@ -9,6 +9,7 @@ $footer:    #151414;
 
 
 
+
 //CINZA
 $gray:   #ced4da;
 
@@ -33,6 +34,12 @@ $black:    #000;
 
 $primary:       $red-dark;
 $secondary:     $white;
+
+
+:export {
+    primaryColor: $primary;
+    secondaryColor: $secondary;
+  }
 
 
 

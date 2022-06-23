@@ -11,3 +11,13 @@
         width: 27rem;
     }
 }
+
+@media (max-width:768px) {
+    .gvc-intro{
+        text-align: start;
+        .heading-line::before{
+            width: 8rem;
+        }
+    }
+    
+}

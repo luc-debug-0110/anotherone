@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   <div class="section registro-form bg-primary" id="registro-form">
+      <div class="container container-reg">
+         
+         <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 col-img">
+               <img class="img-fluid" src="images/register/undraw_security_on_re_e491(1).svg" alt="">
+            </div>
+            <div class="col-md-6 col-form">
+               <div class="header"><h1>Registe-se</h1></div>
+
+               <form action="index.html"  onsubmit="checar()" class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nomeCompleto" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nomeCompleto">
+                    
+                  </div>
+                  <div class="col-md-6">
+                    <label for="nomeMat" class="form-label">Nome Materno</label>
+                    <input type="text" class="form-control" id="nomeMat">
+                    
+                  </div>
+                  <div class="col-12">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00">
+                    
+                  </div>
+                  <div class="col-6">
+                    <label for="telc" class="form-label">Telefone Celular</label>
+                    <input type="text" class="form-control" id="telc" placeholder="(+55)21-01234567">
+                    
+                  </div>
+                  <div class="col-6">
+                     <label for="telf" class="form-label">Telefone Fixo</label>
+                     <input type="text" class="form-control" id="telf" placeholder="(+55)21-01234567">
+                     
+                   </div>
+                  <div class="col-md-4">
+                    <label for="sexo" class="form-label">Sexo</label>
+                    <select id="sexo" required class="form-select">
+                      <option selected>Escolha...</option>
+                      <option>Homem</option>
+                      <option>Mulher</option>
+                      
+                    </select>
+                  </div>
+                  <div class="col-md-8">
+                    <label for="login" class="form-label">Login</label>
+                    <input type="text" class="form-control" id="login">
+                    
+                  </div>
+                  <div class="col-md-6">
+                     <label for="senha" class="form-label">Senha</label>
+                     <input type="password" class="form-control" id="senha">
+                     
+                   </div>
+                   <div class="col-md-6">
+                     <label for="senha2" class="form-label">Confirmar senha</label>
+                     <input type="password" class="form-control" id="senha2">
+                     
+                   </div>
+                  <div class="col-12">
+                  </div>
+                  <div class="col-6">
+                    <button type="submit" class="border-dark btn rounded-pill btn-rounded">Cadastrar-se
+                     <span>
+                        <i class="fas fa-person"></i>
+                     </span>
+                    </button>
+                  </div>
+                  <div class="col-6">
+                     <button type="reset" class="border-dark btn rounded-pill btn-rounded">Redefinir
+                      <span>
+                         <i class="fas fa-trash-arrow-up"></i>
+                      </span>
+                     </button>
+                   </div>
+                  
+                </form>
+
+               </div>
+
+            
+                  
+            </div>
+            
+         </div>
+      </div>
+   </div>
+   <script src="assets/js/js-nativo/registro.js"></script>
+   <script src="assets/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>

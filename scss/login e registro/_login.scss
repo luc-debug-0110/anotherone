@@ -1,0 +1,23 @@
+@use '../custom' as *;
+
+.login-form{
+    height: 100vh;
+    .col-form{
+        height: 100vh;
+        border-radius: 5px;
+            
+        form{
+            background-color: $gray-200;
+            border-radius: 5px;
+        }
+        .form-control.sucesso{
+            border: 2px green solid;
+        }
+        .form-control.erro{
+            border: 2px red solid;
+        }
+    }
+
+
+}
+

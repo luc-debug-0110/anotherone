@@ -55,3 +55,15 @@
         }
     }
 }
+
+@media (max-width:768px) {
+    .twofa-section{
+        .twofa-image{
+            img{
+                width: 20rem;
+                
+            }
+        }
+    }
+    
+}

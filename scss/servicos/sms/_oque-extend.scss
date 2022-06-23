@@ -1,5 +1,5 @@
 .oque-extend{
-    padding: 5rem;
+    padding: 5rem 0;
     .description{
         padding-bottom: 2rem;
         margin: 0 15rem;
@@ -13,6 +13,24 @@
         p{
             text-align: start;
             margin: 0 10rem;
+        }
+    }
+}
+@media (max-width:768px){
+    .oque-extend{
+        .description{
+            margin: 0;
+        }
+        .row{
+            text-align: start;
+            h1{
+                
+                font-size: 5rem;
+            }
+            p{
+                text-align: start;
+                
+            }
         }
     }
 }

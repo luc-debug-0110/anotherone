@@ -2,12 +2,20 @@
 
 .sms-intro{
     background-color: $primary;
-    padding: 10rem;
+    padding: 10rem 0;
     text-align: center;
     color: $secondary;
     
     .heading-line::before{
         background-color: $secondary;
         width: 23.5rem;
+    }
+}
+
+@media (max-width:768px) {
+    .sms-intro{
+        .heading-line::before{
+            width: 10rem;
+        }
     }
 }

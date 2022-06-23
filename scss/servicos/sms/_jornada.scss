@@ -16,3 +16,24 @@
         width: 70rem;
     }
 }
+
+@media (max-width: 768px) {
+    .jornada{
+        .heading-jornada{
+            padding-bottom: 3rem;
+    
+            .heading-line{
+                display: grid;
+                justify-content: start;
+            }
+            .heading-line::before{
+                width: 17rem;
+            }
+        }
+
+        img{
+            width: 20rem;
+        }
+    }
+}
+
