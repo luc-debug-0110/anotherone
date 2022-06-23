@@ -24,3 +24,22 @@
             }
         }
     }
+
+@media (max-width:768px) {
+    .mascara-intro{
+        .heading-mascara{
+            .heading-line{
+                display: block;
+                margin: 0 auto;
+                
+            }
+            .heading-line::before{
+                background-color: $secondary;
+                padding: 0 5rem;
+            }
+            .heading-line::after{
+                background-color: $secondary;
+            }
+        }
+    }
+}

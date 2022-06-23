@@ -1,5 +1,12 @@
 .quemusa{
     img{
-        height: 20rem;
+        height: 10rem;
+    }
+}
+@media (max-width:768px) {
+    .quemusa{
+        img{
+            height: 10rem;
+        }
     }
 }

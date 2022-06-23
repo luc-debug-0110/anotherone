@@ -11431,6 +11431,11 @@ textarea.form-control-lg {
   width: 60px;
 }
 
+@media (max-width: 768px) {
+  .vertical-border {
+    display: none;
+  }
+}
 .proposta {
   background-color: #fff;
   /* padding-bottom: 4rem; */
@@ -11444,6 +11449,11 @@ textarea.form-control-lg {
   width: 32rem;
 }
 
+@media (max-width: 768px) {
+  .proposta .exemplos img {
+    width: 18rem;
+  }
+}
 .our-services {
   padding-top: 5rem;
 }
@@ -11541,7 +11551,6 @@ textarea.form-control-lg {
   padding: 0.8rem 0;
 }
 .quemusa .content li {
-  margin: 0 -2rem;
   padding-bottom: 0.8rem;
 }
 
@@ -11552,13 +11561,13 @@ textarea.form-control-lg {
   display: grid;
 }
 .quemusa-comps .quemusa-content .quemusa-images {
-  width: 5rem;
+  width: 3rem;
 }
-.quemusa-comps .quemusa-content .lead {
+.quemusa-comps .quemusa-content p {
   padding: 0.8 0;
 }
 .quemusa-comps .quemusa-content img {
-  width: 5rem;
+  width: 3rem;
   padding-bottom: 0.8rem;
 }
 
@@ -11581,6 +11590,19 @@ textarea.form-control-lg {
   background-color: #fff;
 }
 
+@media (max-width: 768px) {
+  .mascara-intro .heading-mascara .heading-line {
+    display: block;
+    margin: 0 auto;
+  }
+  .mascara-intro .heading-mascara .heading-line::before {
+    background-color: #fff;
+    padding: 0 5rem;
+  }
+  .mascara-intro .heading-mascara .heading-line::after {
+    background-color: #fff;
+  }
+}
 .mascara {
   padding: 2rem 0;
 }
@@ -11611,6 +11633,15 @@ textarea.form-control-lg {
   height: 28rem;
 }
 
+@media (max-width: 768px) {
+  .mascara .heading-description-mascara .heading-line {
+    display: block;
+    margin: 0 auto;
+  }
+  .mascara .heading-description-mascara .heading-line::before {
+    width: 5rem;
+  }
+}
 .funciona {
   padding: 3rem 0;
 }
@@ -11623,20 +11654,28 @@ textarea.form-control-lg {
 }
 .funciona .text-description-top {
   text-align: center;
-  padding: 0 5rem;
+  padding: 0 0;
 }
-.funciona .funciona-image {
-  margin-left: 5rem;
+.funciona .funciona-image img {
+  width: 100%;
 }
 .funciona .text-description-bottom {
   text-align: start;
-  padding: 1rem 4rem;
+  padding: 1rem 0;
 }
 
 @media (max-width: 768px) {
-  .funciona img {
+  .funciona {
+    font-size: 0.5rem;
+  }
+  .funciona .heading-line::before {
     width: 5rem;
-    height: 5rem;
+  }
+  .funciona .funciona-image {
+    margin-left: 0;
+  }
+  .funciona .funciona-image img {
+    width: 45rem;
   }
 }
 .quemusa .heading-quemusa {
@@ -11851,6 +11890,15 @@ textarea.form-control-lg {
   width: 20rem;
 }
 
+@media (max-width: 768px) {
+  .compatibilidade .heading-compatibilidade .heading-line {
+    display: grid;
+    justify-content: start;
+  }
+  .compatibilidade .heading-compatibilidade .heading-line::before {
+    width: 5rem;
+  }
+}
 .funciona {
   justify-content: start;
   align-items: flex-start;
@@ -11984,16 +12032,23 @@ textarea.form-control-lg {
     text-align: start;
   }
   .oque-extend .row h1 {
+    margin: 0 auto;
     font-size: 5rem;
   }
   .oque-extend .row p {
+    margin: 0 auto;
     text-align: start;
   }
 }
 .quemusa img {
-  height: 20rem;
+  height: 10rem;
 }
 
+@media (max-width: 768px) {
+  .quemusa img {
+    height: 10rem;
+  }
+}
 .jornada {
   padding: 5rem 0;
 }
@@ -12040,10 +12095,6 @@ textarea.form-control-lg {
 
 .registro-form {
   height: 100vh;
-}
-.registro-form .col-form {
-  padding-top: 2.5rem;
-  height: 80vh;
 }
 .registro-form .col-form form {
   background-color: #e9ecef;

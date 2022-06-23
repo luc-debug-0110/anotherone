@@ -21,3 +21,18 @@
         width: 20rem;
     }
 }
+
+@media (max-width:768px) {
+    .compatibilidade{
+    
+        .heading-compatibilidade{
+    
+            .heading-line{
+                display: grid;
+                justify-content: start;
+            }
+            .heading-line::before{
+                width: 5rem;
+            }
+        }}
+}

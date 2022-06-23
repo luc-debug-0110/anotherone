@@ -11,23 +11,36 @@
     }
     .text-description-top{
         text-align: center;
-        padding: 0 5rem;
+        padding: 0 0;
     }
     .funciona-image{
-        margin-left: 5rem;
+
+        img{
+            width: 100%;
+        }
     }
     .text-description-bottom{
 
         text-align: start;
-        padding:1rem 4rem ;
+        padding:1rem 0;
     }
 
 }
 @media (max-width:768px){
     .funciona{
-        img{
+        font-size: 0.5rem;
+
+        .heading-line::before{
             width: 5rem;
-            height: 5rem;
         }
+        .funciona-image{
+            margin-left:0 ;
+            
+            img{
+                width: 45rem;
+
+            }
+        }
+        
     }
 }
