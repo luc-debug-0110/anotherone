@@ -12026,6 +12026,20 @@ textarea.form-control-lg {
     width: 20rem;
   }
 }
+.companias {
+  padding: 5rem 0;
+}
+.companias .header-companias .heading-line {
+  display: grid;
+  justify-content: start;
+}
+.companias .header-companias .heading-line::before {
+  width: 11.5rem;
+}
+.companias img {
+  width: 5rem;
+}
+
 .registro-form {
   height: 100vh;
 }
@@ -12067,6 +12081,7 @@ textarea.form-control-lg {
 /* GOOGLE VERIFIED CALLS */
 /* SMS PROGRAMAVEIS */
 /* @use 'servicos/sms/beneficios-sms'; */
+/* companias */
 /* LOGIN E REGISTRO */
 
 /*# sourceMappingURL=style.css.map */

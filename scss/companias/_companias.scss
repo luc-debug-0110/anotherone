@@ -1,0 +1,15 @@
+.companias{
+    padding: 5rem 0;
+    .header-companias{
+        .heading-line{
+            display: grid;
+            justify-content: start;
+        }
+        .heading-line::before{
+            width: 11.5rem;
+        }
+    }
+    img{
+        width: 5rem;
+    }
+}
