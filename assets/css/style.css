@@ -11433,7 +11433,7 @@ textarea.form-control-lg {
 
 .proposta {
   background-color: #fff;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
   color: #00c1f4;
 }
 .proposta .exemplos--items {
@@ -12026,9 +12026,6 @@ textarea.form-control-lg {
     width: 20rem;
   }
 }
-.companias {
-  padding: 5rem 0;
-}
 .companias .header-companias .heading-line {
   display: grid;
   justify-content: start;
@@ -12038,6 +12035,7 @@ textarea.form-control-lg {
 }
 .companias img {
   width: 5rem;
+  padding-bottom: 1.5rem;
 }
 
 .registro-form {
