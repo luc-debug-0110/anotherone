@@ -11507,7 +11507,7 @@ textarea.form-control-lg {
   justify-content: start;
 }
 .funciona .heading-funciona .heading-line::before {
-  width: 22rem;
+  width: 5rem;
 }
 .funciona--items img {
   display: block;
@@ -11789,7 +11789,7 @@ textarea.form-control-lg {
 }
 .gvc-intro {
   background-color: #00c1f4;
-  padding: 10rem;
+  padding: 10rem 0;
   text-align: center;
   color: #fff;
 }
