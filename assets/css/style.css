@@ -12096,9 +12096,11 @@ textarea.form-control-lg {
 .registro-form {
   height: 100vh;
 }
+.registro-form .col-form {
+  min-height: 50%;
+}
 .registro-form .col-form form {
   background-color: #e9ecef;
-  border-radius: 5px;
 }
 .registro-form .col-form .form-control.sucesso {
   border: 2px green solid;

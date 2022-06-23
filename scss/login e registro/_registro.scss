@@ -3,9 +3,10 @@
 .registro-form{
     height: 100vh;
     .col-form{
+        min-height: 50%;
         form{
             background-color: $gray-200;
-            border-radius: 5px;
+            
         }
         .form-control.sucesso{
             border: 2px green solid;

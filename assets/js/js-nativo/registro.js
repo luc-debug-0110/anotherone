@@ -30,7 +30,7 @@ function checar(e){
     const regexLogin = /^[a-zA-Z0-9]{6}$/;
     const loginValido = regexLogin.test(login);
 
-    const regexSenha = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8}$/
+    const regexSenha = /^[a-zA-Z0-9\*\.\+\-]{8}$/
     ;
     const senhaValida = regexSenha.test(senha);
 
